@@ -7,7 +7,7 @@
   height: 100%;
   width: 100%;
   background-color: var(--bg-color);
-  background-color: rgb(104, 92, 92);
+  background-color: rgb(47, 51, 48);
 }
 
 .cards-headers {
@@ -19,9 +19,9 @@
 }
 
 
-.btn-contact-form-wrapper .flat-btn {
+/* .btn-contact-form-wrapper .flat-btn {
   height: 42vh;
   align-items: flex-end;
   background-color: transparent;
   width: 100%;
-}
+} */
