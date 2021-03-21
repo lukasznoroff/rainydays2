@@ -20,9 +20,6 @@ for (let product of produtsToShow) {
 
     productsWrap.appendChild(card);
 
-    // const title = currentSex === "male" ? "Men" : "Women";
-
-
     let title;
 
     if (currentSex === "male") {

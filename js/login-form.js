@@ -19,7 +19,6 @@ registerBtn.addEventListener("click", function () {
 
     if (checkLength(surname.value, 0) === true) {
         errorSurname.classList.remove("show-error");
-
     } else {
         errorSurname.classList.add("show-error");
     }
@@ -94,16 +93,15 @@ function checkErrors() {
 
 const loginEmail = document.querySelector(".login-email");
 const loginPassword = document.querySelector(".login-password");
-const errorLoginEmail = document.querySelector(".error-login-email")
-const errorLoginPassword = document.querySelector(".error-login-password")
-const loginBtn = document.querySelector(".login-btn")
+const errorLoginEmail = document.querySelector(".error-login-email");
+const errorLoginPassword = document.querySelector(".error-login-password");
+const loginBtn = document.querySelector(".login-btn");
 
 
 loginBtn.addEventListener("click", function () {
 
     if (loginPassword.value.trim().length > 8) {
         errorLoginPassword.classList.remove("show-error");
-
     } else {
         errorLoginPassword.classList.add("show-error");
     }
@@ -138,7 +136,6 @@ function checkErrorsInLogin() {
 
     if (errorCounter === 0) {
         loggedForm.classList.add("visible");
-
     } else {
         loggedForm.classList.remove("visible");
     }

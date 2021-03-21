@@ -5,7 +5,7 @@ function displayCart() {
     const itemsWrap = document.querySelector(".cart .items-wrap");
 
     if (!itemsWrap) {
-        return
+        return;
     }
 
     let cartObject = JSON.parse(localStorage.getItem("cart"));

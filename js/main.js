@@ -31,7 +31,6 @@ function handleAddToCart() {
                     "quantity": 1,
                 })
             }
-
         }
 
 
@@ -42,8 +41,6 @@ function handleAddToCart() {
         newIcon.innerHTML = getCartTotalItems();
         newIcon.classList.add("animate");
     })
-
-
 
 }
 

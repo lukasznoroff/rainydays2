@@ -139,5 +139,9 @@
   .logged, .accound-created{
   top: -9%;
 }
+  .flat-btn {
+    height: 31vh;
+    align-items: flex-end;
+  }
 
 }

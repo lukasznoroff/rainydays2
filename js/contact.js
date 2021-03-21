@@ -27,7 +27,6 @@ contactBtn.addEventListener("click", function(){
 
     if (checkLength2(contactSubject.value, 0) === true) {
         errorContactSubject.classList.remove("show-error");
-
     } else {
         errorContactSubject.classList.add("show-error");
     }

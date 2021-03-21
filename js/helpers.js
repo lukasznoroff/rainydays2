@@ -14,13 +14,12 @@ function getCartTotalItems() {
     let total = 0;
 
     for (let item of cartObject.items) {
-        const ammout = item.quantity
+        const ammout = item.quantity;
         total += ammout;
 
     }
 
     return total;
-
 }
 
 
@@ -29,10 +28,8 @@ function getCartObject() {
     return JSON.parse(localStorage.getItem("cart"));
 }
 
-// function getProductObject(){}
-
-
 function updateMiniCart(){
+    
     const miniCartContent = document.querySelector(".mini-cart-content");
     const cartObject = getCartObject();
 

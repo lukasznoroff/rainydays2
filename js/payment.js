@@ -50,7 +50,7 @@ paymentBtn.addEventListener("click", function(){
         errorPaymentName.classList.add("show-error");
     }
 
-    if (checkLength2(paymentCardNumber.value, 12) === true) {
+    if (checkLength2(paymentCardNumber.value, 16) === true) {
         errorPaymentCard.classList.remove("show-error");
     } else {
         errorPaymentCard.classList.add("show-error");
@@ -108,7 +108,6 @@ function checkErrors() {
     });
 
     if (errorCounter === 0) {
-
         paymentSlide.classList.add("visible");
     } else {
         paymentSlide.classList.remove("visible");

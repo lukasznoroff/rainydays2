@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +22,7 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script> -->
 </head>
+
 <body>
   <header>
     <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
@@ -37,8 +39,20 @@
         <li><a href="/pages/payment.html">Payment</a></li>
         <li class="link"><a href="/pages/contact.html">Contact</a></li>
       </ul>
-      <div class="icon">
-        <a href="/pages/cart.html"><i class="fas fa-shopping-cart top-icon" aria-hidden="true"></i><span class="cart-total-items">0</span></a>
+      <div class="cart-profile-wrap">
+        <div class="cart-menu-item">
+          <a href="/pages/cart.html">
+            <i class="fas fa-shopping-cart top-icon" aria-hidden="true">
+            </i>
+            <span class="cart-total-items">0
+            </span>
+          </a>
+          <div class="mini-cart">
+            <div class="mini-cart-content">
+            </div>
+            <a class="payment-link" href="/pages/payment.html">checkout</a>
+          </div>
+        </div>
         <a href="/pages/login.html"><i class="fas fa-user top-icon" aria-hidden="true"></i></i></a>
       </div>
     </nav>
@@ -48,24 +62,24 @@
       <div class="col-left-contact headers contact-wrapper">
         <h2>CONTACT</h2>
         <!-- <form action=""> -->
-          <div class="input-box">
-            <label class="form-text" for="name">Name</label>
-            <input class="input contact-name" type="text" name="name" required>
-            <p class="error-contact-name error-message-contact">Please enter your name</p>
-            <label class="form-text" for="email">Your Email</label>
-            <input class="input contact-email" type="email" name="email" required>
-            <p class="error-contact-email error-message-contact">Please enter a valid email address</p>
-            <label class="form-text" for="name">Subject</label>
-            <input class="input contact-subject" type="text" name="name" required>
-            <p class="error-contact-subject error-message-contact">Please fill out this field</p>
-            <label class="form-text" for="name">Your message</label>
-            <textarea class="textarea contact-textarea" name="message" id="" cols="30" rows="10"></textarea>
-            <p class="error-contact-textarea error-message-contact">Please fill out this field</p>
-            <!-- <a class="btn" href="/pages/blind-contact.html">SEND</a> -->
-            <button class="btn contact-btn">SEND</button>
-          </div>
+        <div class="input-box">
+          <label class="form-text" for="name">Name</label>
+          <input class="input contact-name" type="text" name="name" required>
+          <p class="error-contact-name error-message-contact">Please enter your name</p>
+          <label class="form-text" for="email">Your Email</label>
+          <input class="input contact-email" type="email" name="email" required>
+          <p class="error-contact-email error-message-contact">Please enter a valid email address</p>
+          <label class="form-text" for="name">Subject</label>
+          <input class="input contact-subject" type="text" name="name" required>
+          <p class="error-contact-subject error-message-contact">Please fill out this field</p>
+          <label class="form-text" for="name">Your message</label>
+          <textarea class="textarea contact-textarea" name="message" id="" cols="30" rows="10"></textarea>
+          <p class="error-contact-textarea error-message-contact">Please fill out this field</p>
+          <!-- <a class="btn" href="/pages/blind-contact.html">SEND</a> -->
+          <button class="btn contact-btn">SEND</button>
+        </div>
         <!-- </form> -->
-        <div class="blind-contact all-blind-links contact-slide">
+        <div class="blind-contact all-blind-links contact-slide btn-contact-form-wrapper">
           <h1 class="cards-headers">YOUR MESSAGE WAS SENT<BR>SUCCESSFULLY.<br>THANK YOU.</h1>
           <a class="flat-btn" href="/index.html">BACK TO MAIN PAGE</a>
         </div>
@@ -92,10 +106,11 @@
       <p class="footer-text">&copy; all rights reserved</p>
     </div>
   </footer>
-      <script src="/js/products.js"></script>
-      <script src="/js/helpers.js"></script>
-      <script src="/js/cart.js"></script>
-      <script src="/js/contact.js"></script>
-      <script src="/js/main.js"></script>
+  <script src="/js/products.js"></script>
+  <script src="/js/helpers.js"></script>
+  <script src="/js/cart.js"></script>
+  <script src="/js/contact.js"></script>
+  <script src="/js/main.js"></script>
 </body>
+
 </html>

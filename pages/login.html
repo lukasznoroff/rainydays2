@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="../style.css">
-  <title>rainydays  login page</title>
+  <title>rainydays login page</title>
   <!-- Hotjar Tracking Code for https://agitated-lamport-4ce111.netlify.app/ -->
-<!-- <script>
+  <!-- <script>
   (function(h,o,t,j,a,r){
       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
       h._hjSettings={hjid:2266915,hjsv:6};
@@ -21,6 +22,7 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script> -->
 </head>
+
 <body>
   <header>
     <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
@@ -37,7 +39,8 @@
         <li><a href="/pages/contact.html">Contact</a></li>
       </ul>
       <div class="icon">
-        <a href="/pages/cart.html"><i class="fas fa-shopping-cart top-icon" aria-hidden="true"></i><span class="cart-total-items">0</span></a>
+        <a href="/pages/cart.html"><i class="fas fa-shopping-cart top-icon" aria-hidden="true"></i><span
+            class="cart-total-items">0</span></a>
         <a href="/pages/login.html"><i class="fas fa-user top-icon" aria-hidden="true"></i></i></a>
       </div>
     </nav>
@@ -51,13 +54,14 @@
           <input class="input login-email" type="email" name="email" required>
           <p class="error-login-email error-message-login">Please enter a valid email address</p>
           <label class="form-text" for="pass">Password</label>
-          <input class="input login-password" type="password"  name="password" minlength="8" required>
+          <input class="input login-password" type="password" name="password" minlength="8" required>
           <p class="error-login-password error-message-login">Please enter correct password</p>
           <div class="btn-login">
             <!-- <a class="btn" href="/pages/blind-login.html">LOGIN</a> -->
-            <a class="btn login-btn" type="submit">LOGIN</a>
           </div>
+          <a class="btn login-btn" type="submit">LOGIN</a>
         </div>
+
         <div class="blind-login all-blind-links logged">
           <h1 class="cards-headers">YOUR ARE LOGGED IN</h1>
           <a class="flat-btn" href="/index.html">BACK TO MAIN PAGE</a>
@@ -79,7 +83,7 @@
           <p class="error-email error-message">Please enter your email</p>
 
           <label class="form-text" for="pass">Password (min 8 characters)</label>
-          <input class="input password" type="password"  name="password" minlength="8" required>
+          <input class="input password" type="password" name="password" minlength="8" required>
           <p class="error-password error-message">Your password must be at least 8 characters</p>
 
           <div class="btn-login">
@@ -91,11 +95,12 @@
         <div class="blind-register all-blind-links accound-created">
           <h1 class="cards-headers">WELCOME.<BR>YOU HAVE SUCCESSFULLY CREATED YOUR <span
               class="rainydays-bgc">RAINYDAYS</span> DAYS ACCOUNT.</h1>
+          <div class="btn-form-wrapper">
             <a class="flat-btn" href="/index.html">BACK TO MAIN PAGE</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
   <footer>
     <div class="social-media-box">
@@ -112,4 +117,5 @@
   <script src="/js/helpers.js"></script>
   <script src="/js/main.js"></script>
 </body>
+
 </html>

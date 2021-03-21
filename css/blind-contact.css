@@ -17,3 +17,11 @@
 .flat-btn {
   margin: 20px;
 }
+
+
+.btn-contact-form-wrapper .flat-btn {
+  height: 42vh;
+  align-items: flex-end;
+  background-color: transparent;
+  width: 100%;
+}
